@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#E53935</color>
+    <color name="colorAccent">#FF8A80</color>
+    <color name="iconcol">#E53935</color>
+    <color name="puteh">#ffffff</color>
+    <color name="bar">#5905ff</color>
+    <color name="ic">#D32F2F</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="oren">#ff3f34</color>
+</resources>

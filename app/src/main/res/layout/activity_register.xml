@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/puteh"
+    tools:context=".Register">
+
+    <ImageView
+        android:id="@+id/logo_res"
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        app:srcCompat="@drawable/kantin" />
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_res"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/puteh"
+        android:background="@drawable/capsule"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Nama"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_user"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="266dp"
+        android:background="@drawable/capsule"
+        android:textColor="@color/puteh"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/capsule"
+        android:ems="100"
+        android:gravity="center"
+        android:hint="Email"
+        android:textColor="@color/puteh"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_kelas"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_email"
+        android:layout_alignStart="@+id/et_nama"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/capsule"
+        android:ems="10"
+        android:textColor="@color/puteh"
+        android:gravity="center"
+        android:hint="Kelas"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_kelas"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/capsule"
+        android:ems="10"
+        android:textColor="@color/puteh"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/create_res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_pass"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/puteh"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="125dp"
+        android:background="@drawable/capsule"
+        android:text="Create" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_pass"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="179dp" />
+
+</RelativeLayout>
